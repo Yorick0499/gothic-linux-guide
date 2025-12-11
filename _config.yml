@@ -5,7 +5,8 @@ show: true
 nav:
   - title: "Home"
   url: index.md
-  - title: "Gothic I/II - Installation"
-  url: gothic-install.md
+  children:
+    - title: "Gothic I/II - Installation"
+    url: gothic-install.md
 theme:
  color: "blue"
