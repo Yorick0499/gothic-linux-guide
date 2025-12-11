@@ -1,8 +1,5 @@
-remote_theme: pmarsceill/just-the-docs
 title: Gothic Linux Guide
-repository: https://github.com/Yorick0499/gothic-linux-guide/
-header:
-  show: true
+remote_theme: pmarsceill/just-the-docs
 nav:
   - title: "Home"
     url: index.md
@@ -12,3 +9,5 @@ nav:
         url: gothic-install.md
 theme:
   color: "blue"
+header:
+  show: true
