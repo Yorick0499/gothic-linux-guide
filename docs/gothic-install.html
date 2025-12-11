@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gothic I/II Installation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h1>Gothic Linux Guide</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gothic-install.html" class="active">Gothic I/II Installation</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="content">
+
+    <h1>Gothic I/II Installation</h1>
+
+    <h2>Prerequisites</h2>
+    <ul>
+      <li>Steam</li>
+      <li>Ubuntu 24.04.3</li>
+      <li>Flatpak with the Flathub repository</li>
+    </ul>
+
+    <h2>Install Gothic I/II Steam version</h2>
+    <ol>
+      <li>Install your game.</li>
+      <li>Right-click on the game in your library and go to <b>Properties</b>.</li>
+      <li>Go to <b>Betas</b> tab.</li>
+      <li>Select <b>workshop - Workshop Beta</b> version.</li>
+    </ol>
+
+    <h2>Change Proton version</h2>
+    <ol>
+      <li>Right-click on the game in your library and go to <b>Properties</b></li>
+      <li>Go to <b>Compatibility</b> tab</li>
+      <li>Check <b>Force the use of a specific Steam Play compatibility tool</b></li>
+      <li>Change the Proton version to <b>Proton 8.0-5</b></li>
+    </ol>
+
+    <h2>Install protontricks</h2>
+    <p>The first step is to install <b>protontricks</b>, which allows you to easily install various Windows components:</p>
+    <pre><code>flatpak install flathub com.github.Matoking.protontricks</code></pre>
+
+    <h2>Install directmusic for Gothic I/II</h2>
+    <p>For Gothic I:</p>
+    <pre><code>flatpak run com.github.Matoking.protontricks 65540 directmusic</code></pre>
+    <p>For Gothic II:</p>
+    <pre><code>flatpak run com.github.Matoking.protontricks 39510 directmusic</code></pre>
+
+    <h2>Remove SystemPack.ini</h2>
+    <ol>
+      <li>Open the game folder and navigate to the system directory, e.g., <p><code>~/.steam/steam/steamapps/common/Gothic/system</code></p></li>
+      <li>Delete <code>SystemPack.ini</code></li>
+    </ol>
+
+    <h2>Modify user.reg</h2>
+    <ol>
+      <li>Go to the <b>compatdata</b> folder inside your <code>steamapps</code> directory:
+        <ul>
+          <li>Gothic I: <code>~/.steam/steam/steamapps/compatdata/65540/pfx</code></li>
+          <li>Gothic II: <code>~/.steam/steam/steamapps/compatdata/39510/pfx</code></li>
+        </ul>
+      </li>
+      <li>Open <code>user.reg</code> with a text editor.</li>
+      <li>Locate the subsection <code>[Software\\Wine\\DllOverrides]</code></li>
+      <li>At the bottom of this subsection, add the following line: <code>"ddraw"="native,builtin"</code></li>
+      <li>In the same subsection find and remove the following line: <code>"dsound"="native,builtin"</code></li>
+    </ol>
+
+    <h2>Launch the game</h2>
+    <p>After completing all the steps above, the game should run correctly.
+By installing the <b>workshop - Workshop Beta</b> version, you also can install various mods and plugins from Steam Workshop, which should work properly as well.</p>
+
+    <h2>Credits / References</h2>
+    <p>This guide was inspired by a tutorial posted on Reddit: <a href="https://www.reddit.com/r/worldofgothic/comments/1omr7h3/gothic_gothic_2_notr_spine_installation_guide_for/">link</a></p>
+  </div>
+</body>
+</html>
