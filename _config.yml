@@ -1,5 +1,4 @@
 title: Gothic Linux Guide
-remote_theme: pmarsceill/just-the-docs
 nav:
   - title: "Home"
     url: index.md
