@@ -1,8 +1,3 @@
----
-title: Gothic I/II
-sidebar: auto
----
-
 ## Prerequisites
 - Steam
 - Ubuntu 24.04.3
