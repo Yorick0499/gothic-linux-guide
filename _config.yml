@@ -1,0 +1,11 @@
+title: Gothic Linux Guide
+repository: https://github.com/Yorick0499/gothic-linux-guide/
+header:
+show: true
+nav:
+  - title: "Home"
+  url: index.md
+  - title: "Gothic I/II - Installation"
+  url: gothic-install.md
+theme:
+ color: "blue"
