@@ -1,13 +1,13 @@
 title: Gothic Linux Guide
 repository: https://github.com/Yorick0499/gothic-linux-guide/
 header:
-show: true
+  show: true
 nav:
   - title: "Home"
   url: index.md
   - title: "Installation"
   children:
     - title: "Gothic I/II"
-    url: gothic-install.md
+      url: gothic-install.md
 theme:
  color: "blue"
