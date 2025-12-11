@@ -1,5 +1,6 @@
 ---
 title: Gothic I/II
+sidebar: auto
 ---
 
 ## Prerequisites
