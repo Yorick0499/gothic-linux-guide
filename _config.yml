@@ -4,10 +4,10 @@ header:
   show: true
 nav:
   - title: "Home"
-  url: index.md
+    url: index.md
   - title: "Installation"
-  children:
-    - title: "Gothic I/II"
-      url: gothic-install.md
+    children:
+      - title: "Gothic I/II"
+        url: gothic-install.md
 theme:
- color: "blue"
+  color: "blue"
