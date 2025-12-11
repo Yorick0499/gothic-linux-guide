@@ -1,3 +1,7 @@
+---
+title: Gothic I/II
+---
+
 ## Prerequisites
 - Steam
 - Ubuntu 24.04.3
