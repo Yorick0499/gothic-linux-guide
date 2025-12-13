@@ -1,5 +1,5 @@
 ---
-title: Gothic I/II
+title: Gothic I/II PL
 layout: default
 nav_order: 2
 nav_exclude: true
