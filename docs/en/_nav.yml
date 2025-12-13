@@ -1,8 +1,8 @@
 - title: Home
-  url: /en/
+  url: /gothic-linux-guide/en/
 
 - title: Installation guides
   url: ""
   children:
     - title: Gothic I/II
-      url: /install-guide/gothic-i-ii/
+      url: /gothic-linux-guide/en/install-guide/gothic-i-ii/
