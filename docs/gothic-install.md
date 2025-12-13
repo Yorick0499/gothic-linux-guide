@@ -1,3 +1,9 @@
+---
+title: Gothic I/II Installation
+layout: default
+nav_order: 2
+---
+
 # Gothic Linux Guide
 
 # Gothic I/II Installation
