@@ -9,7 +9,7 @@ search-enabled: true
 
 aux_links:
   "EN 🇬🇧":
-    - /gothic-linux-guide/en/
+    - /gothic-linux-guide
   "PL 🇵🇱":
     - /gothic-linux-guide/pl/
 
