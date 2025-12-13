@@ -1,8 +1,0 @@
-- title: Home
-  url: /
-
-- title: Installation guides
-  url: ""
-  children:
-    - title: Gothic I/II
-      url: /install-guide/gothic-i-ii/
