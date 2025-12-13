@@ -6,3 +6,11 @@ url: https://yorick0499.github.io
 baseurl: /gothic-linux-guide
 
 search-enabled: true
+
+aux_links:
+  "EN 🇬🇧":
+    - "/"
+  "PL 🇵🇱":
+    - "/pl/"
+
+aux_links_new_tab: false
