@@ -1,7 +1,7 @@
 ---
 title: Gothic I/II
 layout: default
-parent: test
+parent: home
 nav_order: 2
 ---
 
