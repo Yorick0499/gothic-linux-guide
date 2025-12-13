@@ -9,8 +9,8 @@ search-enabled: true
 
 aux_links:
   "EN 🇬🇧":
-    - "/en/index.md"
+    - "/"
   "PL 🇵🇱":
-    - "/pl/index.md"
+    - "/pl/"
 
 aux_links_new_tab: false
