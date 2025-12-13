@@ -3,14 +3,14 @@ description: A guide to running Gothic on Linux
 remote_theme: just-the-docs/just-the-docs
 
 url: https://yorick0499.github.io
-baseurl: /gothic-linux-guide
+baseurl: /gothic-linux-guide/en/
 
 search-enabled: true
 
 aux_links:
   "EN 🇬🇧":
-    - "{{ '/' | relative_url }}"
+    - /gothic-linux-guide/en/
   "PL 🇵🇱":
-    - "{{ '/pl/' | relative_url }}"
+    - /gothic-linux-guide/pl/
 
 aux_links_new_tab: false
