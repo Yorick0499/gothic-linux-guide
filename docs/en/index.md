@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: default
+parent: Gothic Linux Guide EN
 nav_order: 1
 ---
 
