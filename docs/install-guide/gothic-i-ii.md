@@ -12,28 +12,28 @@ nav_order: 1
 - Ubuntu 24.04.3
 - Flatpak with the Flathub repository
 
-## Install Gothic I/II Steam version
+## 1. Install Gothic I/II Steam version
 
-1.  Install your game.
-2.  Right-click on the game in your library and go to **Properties**.
-3.  Go to **Betas** tab.
-4.  Select **workshop - Workshop Beta** version.
+1.1  Install your game.
+1.2  Right-click on the game in your library and go to **Properties**.
+1.3  Go to **Betas** tab.
+1.4  Select **workshop - Workshop Beta** version.
 
-## Change Proton version
+## 2. Change Proton version
 
-1.  Right-click on the game in your library and go to **Properties**
-2.  Go to **Compatibility** tab
-3.  Check **Force the use of a specific Steam Play compatibility tool**
-4.  Change the Proton version to **Proton 8.0-5**
+2.1  Right-click on the game in your library and go to **Properties**
+2.2  Go to **Compatibility** tab
+2.3  Check **Force the use of a specific Steam Play compatibility tool**
+2.4  Change the Proton version to **Proton 8.0-5**
 
-## Install protontricks
+## 3. Install protontricks
 
 Install **protontricks**, which allows you to easily install various
 Windows components:
 
     flatpak install flathub com.github.Matoking.protontricks
 
-## Install directmusic for Gothic I/II
+## 4. Install directmusic for Gothic I/II
 
 For Gothic I:
 
@@ -43,27 +43,27 @@ For Gothic II:
 
     flatpak run com.github.Matoking.protontricks 39510 directmusic
 
-## Remove SystemPack.ini
+## 5. Remove SystemPack.ini
 
-1.  Open the game folder and navigate to the system directory, e.g.,
+5.1  Open the game folder and navigate to the system directory, e.g.,
 
     `~/.steam/steam/steamapps/common/Gothic/system`
 
-2.  Delete `SystemPack.ini`
+5.2  Delete `SystemPack.ini`
 
-## Modify user.reg
+## 6. Modify user.reg
 
-1.  Go to the **compatdata** folder inside your `steamapps` directory:
+6.1  Go to the **compatdata** folder inside your `steamapps` directory:
     - Gothic I: `~/.steam/steam/steamapps/compatdata/65540/pfx`
     - Gothic II: `~/.steam/steam/steamapps/compatdata/39510/pfx`
-2.  Open `user.reg` with a text editor.
-3.  Locate the subsection `[Software\\Wine\\DllOverrides]`
-4.  At the bottom of this subsection, add the following line:
+6.2  Open `user.reg` with a text editor.
+6.3  Locate the subsection `[Software\\Wine\\DllOverrides]`
+6.4  At the bottom of this subsection, add the following line:
     `"ddraw"="native,builtin"`
-5.  In the same subsection find and remove the following line:
+6.5  In the same subsection find and remove the following line:
     `"dsound"="native,builtin"`
 
-## Launch the game
+## 7. Launch the game
 
 After completing all the steps above, the game should run correctly. By
 installing the **workshop - Workshop Beta** version, you also can
