@@ -9,8 +9,8 @@ search-enabled: true
 
 aux_links:
   "EN 🇬🇧":
-    - "{{ '/' | relative_url }}"
+    - /gothic-linux-guide/en/
   "PL 🇵🇱":
-    - "{{ '/pl/' | relative_url }}"
+    - /gothic-linux-guide/pl/
 
 aux_links_new_tab: false
