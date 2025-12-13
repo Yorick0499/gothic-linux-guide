@@ -14,17 +14,17 @@ nav_order: 1
 
 ## 1. Install Gothic I/II Steam version
 
-1.1  Install your game.
-1.2  Right-click on the game in your library and go to **Properties**.
-1.3  Go to **Betas** tab.
-1.4  Select **workshop - Workshop Beta** version.
+1. Install your game.
+2. Right-click on the game in your library and go to **Properties**.
+3. Go to **Betas** tab.
+4. Select **workshop - Workshop Beta** version.
 
 ## 2. Change Proton version
 
-2.1  Right-click on the game in your library and go to **Properties**
-2.2  Go to **Compatibility** tab
-2.3  Check **Force the use of a specific Steam Play compatibility tool**
-2.4  Change the Proton version to **Proton 8.0-5**
+1. Right-click on the game in your library and go to **Properties**.
+2. Go to **Compatibility** tab.
+3. Check **Force the use of a specific Steam Play compatibility tool**.
+4. Change the Proton version to **Proton 8.0-5**.
 
 ## 3. Install protontricks
 
@@ -45,22 +45,22 @@ For Gothic II:
 
 ## 5. Remove SystemPack.ini
 
-5.1  Open the game folder and navigate to the system directory, e.g.,
+1. Open the game folder and navigate to the system directory, e.g.,
 
     `~/.steam/steam/steamapps/common/Gothic/system`
 
-5.2  Delete `SystemPack.ini`
+2. Delete `SystemPack.ini`
 
 ## 6. Modify user.reg
 
-6.1  Go to the **compatdata** folder inside your `steamapps` directory:
+1. Go to the **compatdata** folder inside your `steamapps` directory:
     - Gothic I: `~/.steam/steam/steamapps/compatdata/65540/pfx`
     - Gothic II: `~/.steam/steam/steamapps/compatdata/39510/pfx`
-6.2  Open `user.reg` with a text editor.
-6.3  Locate the subsection `[Software\\Wine\\DllOverrides]`
-6.4  At the bottom of this subsection, add the following line:
+2. Open `user.reg` with a text editor.
+3. Locate the subsection `[Software\\Wine\\DllOverrides]`
+4. At the bottom of this subsection, add the following line:
     `"ddraw"="native,builtin"`
-6.5  In the same subsection find and remove the following line:
+5. In the same subsection find and remove the following line:
     `"dsound"="native,builtin"`
 
 ## 7. Launch the game
