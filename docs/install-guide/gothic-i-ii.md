@@ -1,5 +1,5 @@
 ---
-title: Gothic I/II Installation
+title: Gothic I/II
 layout: default
 nav_order: 2
 ---
