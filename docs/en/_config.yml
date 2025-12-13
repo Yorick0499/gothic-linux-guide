@@ -1,6 +1,5 @@
 title: Gothic Linux Guide
-nav_order: 1
-nav:
+children:
   - title: Home
     url: /gothic-linux-guide/en/
   - title: Gothic I/II
