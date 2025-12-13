@@ -1,7 +1,6 @@
 ---
 title: Gothic I/II
-layout: default
-parent: Guides
+parent: Installation guides
 nav_order: 1
 ---
 
