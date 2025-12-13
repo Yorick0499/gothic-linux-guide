@@ -1,0 +1,8 @@
+- title: Home
+  url: /gothic-linux-guide
+
+- title: Installation guides
+  url: ""
+  children:
+    - title: Gothic I/II
+      url: /install-guide/gothic-i-ii/
