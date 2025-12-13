@@ -9,8 +9,8 @@ search-enabled: true
 
 aux_links:
   "EN 🇬🇧":
-    - "/"
+    - "{{ '/' | relative_url }}"
   "PL 🇵🇱":
-    - "/pl/"
+    - "{{ '/pl/' | relative_url }}"
 
 aux_links_new_tab: false
