@@ -4,8 +4,6 @@ parent: Installation guides
 nav_order: 1
 ---
 
-# Gothic Linux Guide
-
 # Gothic I/II Installation
 
 ## Prerequisites
