@@ -1,8 +1,0 @@
-- title: Strona główna
-  url: /pl/
-
-- title: Przewodniki instalacyjne
-  url: ""
-  children:
-  - title: Gothic I/II
-    url: /install-guide/gothic-i-ii
