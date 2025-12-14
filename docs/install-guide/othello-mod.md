@@ -29,6 +29,7 @@ Follow the [Gothic I/II installation guide](https://yorick0499.github.io/gothic-
 This ensures the game runs correctly before installing the mod.
 
 ## 3. Extract the Othello Mod into the game directory
+
 1. Extract **Othello 4.3.zip** into the main directory:
 
 `~/.steam/steam/steamapps/common/Gothic`
