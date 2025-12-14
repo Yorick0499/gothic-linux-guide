@@ -32,19 +32,19 @@ This ensures the game runs correctly before installing the mod.
 
 1. Extract **Othello 4.3.zip** into the main directory:
 
-  `~/.steam/steam/steamapps/common/Gothic`
+   `~/.steam/steam/steamapps/common/Gothic`
 
 2. Extract **Othello_Scripts (4.3.5 Build - build date may vary).zip** into the same directory:
 
-  `~/.steam/steam/steamapps/common/Gothic`
+   `~/.steam/steam/steamapps/common/Gothic`
 
 3. Go to:
 
-  `~/.steam/steam/steamapps/common/Gothic/Data`
+   `~/.steam/steam/steamapps/common/Gothic/Data`
 
 and delete this file:
 
-  `zGamepad.vdf`
+   `zGamepad.vdf`
 
 ### Important notes about file replacement!
 Make sure that **all files were properly replaced** and that **no duplicate files were created**.
