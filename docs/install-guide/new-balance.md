@@ -23,7 +23,6 @@ using the **Steam** version of the game.
 ## 1. Install Gothic II (Steam version)
 
 1. Right-click on the game in your library and select **Properties**.
-
 2. Open the **Betas** tab.
 3. Select **None** version.
 4. Then go to **Compatibility** tab.
@@ -42,7 +41,7 @@ If you already use the default Wine prefix for other games, consider creating a 
 1. Open a terminal and run:
     ``` bash
     winecfg
-
+    ```
 This command will create a new, clean Wine prefix if it does not already exist.
 
 2. Set the Windows version to **Windows 10**, then click **apply** and **OK**.
@@ -53,10 +52,10 @@ With a clean Wine prefix ready, we can install the mod.
 New Balance is distributed with its own `.exe` installer, so Wine is required.
 
 1. Navigate to the directory containing `NewBalanceMod.exe` and `.bin` files.
-
 2. Open a terminal and run:
     ```bash
     wine NewBalanceMod.exe
+    ```
 3. Select folder with Gothic II.
 4. In the installer options, enable **Visual C++ Redistributable** and **base settings** (In my case, I didn't install DX11).
 
@@ -71,26 +70,20 @@ Before doing so, Wine needs an additional component: **.NET Framework 4.8**.
 1. Open a terminal and run:
     ```bash
     winetricks -q dotnet48
-
+    ```
 2. Go to the main folder with Gothic II.
-
 3. Open the `_backupFiles` directory.
 4. Open a terminal and run:
     ```bash
     wine Union_1_0m.exe
-
+    ```
 If you encounter an error after selecting the language and clicking Continue, simply close the error window and run the command again.
 Eventually, the installer should display the window for selecting the game directory.
-
 5. Select the Gothic II directory.
-
-    #### Important:
-    Make sure the installation path is correct. It should **not** start with `C:\` (as on Windows).  
-    Instead, for example it should start with a `Z:\`.
-
-
+#### Important:
+Make sure the installation path is correct. It should **not** start with `C:\` (as on Windows).  
+Instead, for example it should start with a `Z:\`.
 You can verify that Union was installed correctly by checking whether `Union - uninstall.exe` appears in the Gothic II directory.
-
 6. If prompted to choose the game version, select **Gothic II NOTR**.
 
 
@@ -98,12 +91,12 @@ You can verify that Union was installed correctly by checking whether `Union - u
 1. Open a terminal and run:
     ```bash
     flatpak run com.github.Matoking.protontricks 39510 directmusic
+    ```
 
 
 ## 6. Remove SystemPack.ini
 
 1. Open the game folder and navigate to the `system` directory.
-
 2. Delete `SystemPack.ini`
 
 ## 7. Modify user.reg
