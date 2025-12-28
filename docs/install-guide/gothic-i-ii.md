@@ -74,3 +74,5 @@ properly as well.
 
 This guide was inspired by a tutorial posted on Reddit:
 [link](https://www.reddit.com/r/worldofgothic/comments/1omr7h3/gothic_gothic_2_notr_spine_installation_guide_for/)
+
+<sub>Last updated: 28.12.2025 by: Yorick0499</sub>
