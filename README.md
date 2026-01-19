@@ -1,5 +1,5 @@
 # Gothic Linux Guide
-A guide to install Gothic I/II on Ubuntu using Proton, featuring seperate instructions for clean installations and various mods.
+A guide to install Gothic I/II on Ubuntu using Proton, featuring separate instructions for clean installations and various mods.
 
 ## Website
 👉🏻 [Read the full Gothic Linux Guide](https://yorick0499.github.io/gothic-linux-guide/) 🇬🇧
