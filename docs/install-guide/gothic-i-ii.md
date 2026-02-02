@@ -16,7 +16,7 @@ nav_order: 1
 
 1. Install your game.
 2. Right-click on the game in your library and go to **Properties**.
-3. Go to **Betas** tab.
+3. Go to **Game Versions & Betas** tab.
 4. Select **workshop - Workshop Beta** version.
 
 ## 2. Change Proton version
@@ -75,4 +75,4 @@ properly as well.
 This guide was inspired by a tutorial posted on Reddit:
 [link](https://www.reddit.com/r/worldofgothic/comments/1omr7h3/gothic_gothic_2_notr_spine_installation_guide_for/)
 
-<sub>Last updated: 28.12.2025 by: Yorick0499</sub>
+<sub>Last updated: 02.02.2026 by: Yorick0499</sub>

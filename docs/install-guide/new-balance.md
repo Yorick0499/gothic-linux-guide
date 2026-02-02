@@ -23,8 +23,8 @@ using the **Steam** version of the game.
 ## 1. Install Gothic II (Steam version)
 
 1. Right-click on the game in your library and select **Properties**.
-2. Open the **Betas** tab.
-3. Select **None** version.
+2. Open the **Game Versions & Betas** tab.
+3. Select **Default Public Version** version.
 4. Then go to **Compatibility** tab.
 5. Check **Force the use of a specific Steam Play compatibility tool**.
 6. Change the Proton version to **Proton 8.0-5**.
@@ -121,5 +121,5 @@ Launch game through Steam. The game should now start and work correctly.
 
 For better performance, you can enable full screen mode in the in-game settings.
 
-<sub>Last updated: 28.12.2025 by: Yorick0499</sub>
+<sub>Last updated: 02.02.2026 by: Yorick0499</sub>
 

@@ -21,7 +21,7 @@ using the **Steam** version of the game.
 
 1. Install your game.
 2. Right-click on the game in your library and select **Properties**.
-3. Open the **Betas** tab.
+3. Open the **Game Versions & Betas** tab.
 4. Select **original - Original Release** version.
 
 ## 2. Fix the base game
@@ -84,4 +84,4 @@ After completing all steps above, the game should launch and run correctly
 with the Othello Mod enabled.
 
 
-<sub>Last updated: 14.12.2025 by: Yorick0499</sub>
+<sub>Last updated: 02.02.2026 by: Yorick0499</sub>
