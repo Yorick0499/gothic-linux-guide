@@ -1,4 +1,6 @@
 # Gothic Linux Guide
+[![pages-build-deployment](https://github.com/Yorick0499/gothic-linux-guide/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Yorick0499/gothic-linux-guide/actions/workflows/pages/pages-build-deployment)
+
 A guide to install Gothic I/II on Ubuntu using Proton, featuring separate instructions for clean installations and various mods.
 
 ## Website
