@@ -1,6 +1,5 @@
 title: Gothic Linux Guide
 description: A guide to running Gothic on Linux
-remote_theme: just-the-docs/just-the-docs
 
 url: https://yorick0499.github.io
 baseurl: /gothic-linux-guide
@@ -9,3 +8,10 @@ search-enabled: true
 
 plugins:
   - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default

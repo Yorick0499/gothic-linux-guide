@@ -1,0 +1,55 @@
+{
+  "reference_commit": "59c6e9e4d9c20894c4a976d721a755a8fb99197b",
+  "files": {
+    "docs/google7406421d207921a7.html": "26e208d7ae7a324a72c2d425ac11ff0f718ae6f4bff1afab16bb5afea1c669a2",
+    "docs/index.md": "b5dbc7f5222e54a27665278646782a07880d625d8254eb0fbddd4b95ca1697de",
+    "docs/install-guide/gothic-i-ii.md": "acc58916f1deb51f1fe083776227d2c5886ceaff44015363c7fb6009925de0d3",
+    "docs/install-guide/new-balance.md": "1d37cf9998828a1861664770b964be1ef36936e255c8dcfa395f3f931c99a83c",
+    "docs/install-guide/othello-mod.md": "a5587d5ab3e660dde4825b2b8f408b26f772046c4f1475caee0d4f1291eb1f94",
+    "docs/install-guides.md": "8b0c244d4b2b32445de2f28ac65890222a2db0deb985e7eba5ba46be602931db",
+    "docs/robots.txt": "4fd506ae2391368ccde5086eeb4580c883c3eb03df2314aa189a0c3d2e720053"
+  },
+  "articles": {
+    "index.html": {
+      "text": "Gothic Linux Guide Welcome! This guide helps you install Gothic I/II on Ubuntu using Proton, there are seperate instructions for clean installations and various mods. This site is currently in development. Content may change.",
+      "links": [],
+      "code": []
+    },
+    "install-guide/gothic-i-ii.html": {
+      "text": "Gothic I/II Installation Prerequisites Steam Ubuntu 24.04.3 Flatpak with the Flathub repository 1. Install Gothic I/II Steam version Install your game. Right-click on the game in your library and go to Properties. Go to Game Versions & Betas tab. Select workshop - Workshop Beta version. 2. Change Proton version Right-click on the game in your library and go to Properties. Go to Compatibility tab. Check Force the use of a specific Steam Play compatibility tool. Change the Proton version to Proton 8.0-5. 3. Install protontricks Install protontricks, which allows you to easily install various Windows components: flatpak install flathub com.github.Matoking.protontricks 4. Install directmusic for Gothic I/II For Gothic I: flatpak run com.github.Matoking.protontricks 65540 directmusic For Gothic II: flatpak run com.github.Matoking.protontricks 39510 directmusic 5. Remove SystemPack.ini Open the game folder and navigate to the system directory, e.g., ~/.steam/steam/steamapps/common/Gothic/system Delete SystemPack.ini 6. Modify user.reg Go to the compatdata folder inside your steamapps directory: Gothic I: ~/.steam/steam/steamapps/compatdata/65540/pfx Gothic II: ~/.steam/steam/steamapps/compatdata/39510/pfx Open user.reg with a text editor. Locate the subsection [Software\\\\Wine\\\\DllOverrides] At the bottom of this subsection, add the following line: \"ddraw\"=\"native,builtin\" In the same subsection find and remove the following line: \"dsound\"=\"native,builtin\" 7. Launch the game After completing all the steps above, the game should run correctly. By installing the workshop - Workshop Beta version, you also can install various mods and plugins from Steam Workshop, which should work properly as well. Credits / References This guide was inspired by a tutorial posted on Reddit: link Last updated: 02.02.2026 by: Yorick0499",
+      "links": [
+        "https://www.reddit.com/r/worldofgothic/comments/1omr7h3/gothic_gothic_2_notr_spine_installation_guide_for/"
+      ],
+      "code": [
+        "flatpak install flathub com.github.Matoking.protontricks\n",
+        "flatpak run com.github.Matoking.protontricks 65540 directmusic\n",
+        "flatpak run com.github.Matoking.protontricks 39510 directmusic\n"
+      ]
+    },
+    "install-guide/new-balance.html": {
+      "text": "New Balance Installation This guide describes how to install and run the New Balance Mod for Gothic II on Linux (Ubuntu 24.04.x) using the Steam version of the game. Prerequisites Steam Gothic II (Steam version) Ubuntu 24.04.3 (or compatible) protontricks (Flatpak version from Flathub) New Balance Mod New Balance Scripts Wine Winetricks 1. Install Gothic II (Steam version) Right-click on the game in your library and select Properties. Open the Game Versions & Betas tab. Select Default Public Version version. Then go to Compatibility tab. Check Force the use of a specific Steam Play compatibility tool. Change the Proton version to Proton 8.0-5. Install game. Recommended: Disable the Steam Overlay 2. Create and configure wine prefix I will use and configure the default Wine prefix, which is located in the home directory. For proper operation, it is recommended to remove the .wine directory so everything is installed cleanly. If you already use the default Wine prefix for other games, consider creating a separate Wine prefix instead. Open a terminal and run: winecfg This command will create a new, clean Wine prefix if it does not already exist. Set the Windows version to Windows 10, then click apply and OK. 3. Install New Balance With a clean Wine prefix ready, we can install the mod. New Balance is distributed with its own .exe installer, so Wine is required. Navigate to the directory containing NewBalanceMod.exe and .bin files. Open a terminal and run: wine NewBalanceMod.exe Select folder with Gothic II. In the installer options, enable Visual C++ Redistributable and base settings (In my case, I didn’t install DX11). 4. Install Union At this point, the mod itself should be installed correctly. However, on Linux the installer does not install Union automatically, which is required for the mod to work. Fortunately, the installer provides the Union executable, so we can install it manually. Before doing so, Wine needs an additional component: .NET Framework 4.8. Open a terminal and run: winetricks -q dotnet48 Go to the main folder with Gothic II. Open the _backupFiles directory. Open a terminal and run: wine Union_1_0m.exe If you encounter an error after selecting the language and clicking Continue, simply close the error window and run the command again. Eventually, the installer should display the window for selecting the game directory. Select the Gothic II directory. Important: Make sure the installation path is correct. It should not start with C:\\ (as on Windows). Instead, for example it should start with a Z:\\. You can verify that Union was installed correctly by checking whether Union - uninstall.exe appears in the Gothic II directory. If prompted to choose the game version, select Gothic II NOTR. 5. Install directmusic Open a terminal and run: flatpak run com.github.Matoking.protontricks 39510 directmusic 6. Remove SystemPack.ini Open the game folder and navigate to the system directory. Delete SystemPack.ini 7. Modify user.reg Go to the compatdata folder inside your steamapps directory: ~/.steam/steam/steamapps/compatdata/39510/pfx Open user.reg with a text editor. Locate the subsection [Software\\\\Wine\\\\DllOverrides] Find and remove the following line: \"dsound\"=\"native,builtin\" 8. Copy New Balance Scripts Now you can copy the New Balance Scripts (English, Polish, or any other language you prefer) and paste to the game folder. Important: Do not copy the entire directory at once. Due to case sensitivity differences on Linux, some files may not be overwritten correctly. Instead, copy individual files into their appropriate target directories. 9. Launch the game via Steam Launch game through Steam. The game should now start and work correctly. For better performance, you can enable full screen mode in the in-game settings. Last updated: 02.02.2026 by: Yorick0499",
+      "links": [],
+      "code": [
+        " winecfg\n",
+        " wine NewBalanceMod.exe\n",
+        " winetricks -q dotnet48\n",
+        " wine Union_1_0m.exe\n",
+        " flatpak run com.github.Matoking.protontricks 39510 directmusic\n"
+      ]
+    },
+    "install-guide/othello-mod.html": {
+      "text": "Othello Mod Installation This guide describes how to install and run the Othello Mod 4.3.5 for Gothic I on Linux (Ubuntu 24.04.x) using the Steam version of the game. Prerequisites Steam Gothic I (Steam version) Ubuntu 24.04.3 (or compatible) Flatpak with the Flathub repository Othello Mod 1. Install Gothic I (Steam version) Install your game. Right-click on the game in your library and select Properties. Open the Game Versions & Betas tab. Select original - Original Release version. 2. Fix the base game Follow the Gothic I/II installation guide from step 2 to step 6. This ensures the game runs correctly before installing the mod. 3. Extract the Othello Mod into the game directory Extract Othello 4.3.zip into the main directory: ~/.steam/steam/steamapps/common/Gothic Extract Othello_Scripts (4.3.5 Build - build date may vary).zip into the same directory: ~/.steam/steam/steamapps/common/Gothic Go to: ~/.steam/steam/steamapps/common/Gothic/Data and delete this file: zGamepad.vdf Important notes about file replacement! Make sure that all files were properly replaced and that no duplicate files were created. Files provided by the Othello Mod usually have the format: Xxxx.yyy (capital first letter) Original game files often use: XXXX.YYY (all uppercase) Pay special attention to the following files: GOTHIC.EXE SHW32.DLL Also make sure that the SYSTEM directory does not exist in two variants (e.g. SYSTEM and System). You want to replace files, not create duplicates. 4. Add a launch script (mouse fix) At this point, the game should start, but you will most likely experience mouse issues (e.g. jittering or inability to rotate the camera fully). To fix this: In the Steam Library, right-click Gothic I. Select Properties. In the General tab, add the following to Launch Options: WINEDLLOVERRIDES=\"dinput.dll=n,b\" %command% 5. Launch the game After completing all steps above, the game should launch and run correctly with the Othello Mod enabled. Last updated: 02.02.2026 by: Yorick0499",
+      "links": [
+        "https://yorick0499.github.io/gothic-linux-guide/install-guide/gothic-i-ii.html"
+      ],
+      "code": [
+        "WINEDLLOVERRIDES=\"dinput.dll=n,b\" %command%\n"
+      ]
+    },
+    "install-guides.html": {
+      "text": "Here you can find various installation guides",
+      "links": [],
+      "code": []
+    }
+  }
+}

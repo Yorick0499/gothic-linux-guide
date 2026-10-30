@@ -1,0 +1,362 @@
+/* Gothic II: Night of the Raven inspired presentation. Font provenance: fonts/FONT-LICENSE.md. */
+@font-face {
+    font-family: 'Gothic II';
+    src: url('fonts/GothicII.woff2') format('woff2'),
+         url('fonts/GothicII.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/gfonts/cg-400i-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/gfonts/cg-400i-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/gfonts/cg-500i-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/gfonts/cg-500i-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/gfonts/cg-600i-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/gfonts/cg-600i-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/gfonts/cg-400n-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/gfonts/cg-400n-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/gfonts/cg-500n-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/gfonts/cg-500n-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/gfonts/cg-600n-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/gfonts/cg-600n-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/gfonts/cg-700n-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/gfonts/cg-700n-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/gfonts/fc-400n-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/gfonts/fc-400n-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/gfonts/fc-500n-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/gfonts/fc-500n-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/gfonts/fc-700n-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/gfonts/fc-700n-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+:root {
+    --bg:           #030608;
+    --bg-2:         #050b0f;
+    --panel:        #0a1216;
+    --panel-2:      #0e181d;
+    --border:       #1d3a44;
+    --border-soft:  rgba(29, 58, 68, 0.6);
+    --iron:         #101c22;
+    --gold:         #a4957e;
+    --gold-bright:  #cfc0a2;
+    --gold-dim:     #6b6050;
+    --bronze:       #4a6a78;
+    --ember:        #a03a28;
+    --ember-text:   #d98a72;
+    --water:        #56a9c1;
+    --water-deep:   #25829f;
+    --moon:         #fafdfc;
+    --moon-dim:     #b5b4af;
+    --text:         #c3cdc6;
+    --text-bright:  #e4ebe4;
+    --text-dim:     #8fa097;
+    --code-bg:      #010405;
+    --font-head:    'Gothic II', 'Cinzel', 'Trajan Pro', 'Times New Roman', serif;
+    --font-body:    'Cormorant Garamond', 'Palatino Linotype', Georgia, serif;
+    --font-mono:    'Fira Code', Consolas, 'DejaVu Sans Mono', monospace;
+    --grain:        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' seed='4' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45  0 0 0 0 .68  0 0 0 0 .78  0 0 0 0.9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body { margin: 0; min-height: 100vh; display: flex; align-items: flex-start; color: var(--text); font-family: var(--font-body); line-height: 1.65; background-color: var(--bg); background-attachment: fixed; }
+body::before { content: ''; position: fixed; inset: 0; background-image: var(--grain); opacity: .035; pointer-events: none; }
+body::after { content: ''; position: fixed; top: 0; left: 0; right: 0; z-index: 70; pointer-events: none; }
+::selection { background: #32738c; color: #fff; }
+:focus-visible { outline: 2px solid #aedbe0; outline-offset: 4px; }
+nav.sidebar { top: 0; display: flex; flex-direction: column; overflow-y: auto; border-right: 1px solid #28434b; box-shadow: 8px 0 30px #0005; z-index: 60; }
+.brand { text-align: center; border-bottom: 1px solid var(--border); }
+.nav-list { list-style: none; margin: 0; padding: 0 12px 20px; }
+.nav-list a { display: flex; align-items: center; gap: 12px; padding: 10px 12px; color: var(--text); text-decoration: none; border: 0; border-bottom: 1px solid #16282e; border-left: 2px solid transparent; }
+.nav-list a:hover { color: #f0e3be; background: #56a9c112; }
+main { flex: 1; min-width: 0; position: relative; z-index: 2; }
+.frame { margin: 0 auto; position: relative; }
+.frame::before { content: ''; position: absolute; inset: 9px; border: 1px solid; pointer-events: none; }
+p { margin: 0 0 16px; }
+strong, em { color: #e4ebe4; }
+a { text-decoration: none; border-bottom: 1px solid #56a9c173; transition: color .2s, border-color .2s; }
+main ul, main ol { margin: 0 0 20px; padding-left: 26px; }
+main li { padding-left: 4px; }
+main li::marker { color: #adc6c6; }
+code { font-family: var(--font-mono); font-size: .75em; background: #0008; border: 1px solid #255768b3; padding: 1px 6px; border-radius: 2px; color: #d4d5b9; overflow-wrap: anywhere; }
+pre { font-family: var(--font-mono); font-size: 14px; line-height: 1.65; margin: 4px 0 22px; background: #02080b; border: 1px solid var(--border); border-left: 3px solid; overflow-x: auto; position: relative; }
+pre code { font-size: inherit; background: none; border: 0; padding: 0; color: #bfe4f0; overflow-wrap: normal; }
+.topbar { display: none; position: sticky; top: 0; align-items: center; gap: 12px; padding: 8px 12px; border-bottom: 1px solid var(--border); }
+.menu-btn { width: 44px; height: 44px; background: none; border: 1px solid var(--border); color: #d0d9cb; font-size: 20px; cursor: pointer; }
+.brand-mini { font: 16px 'Gothic II', Georgia, serif; }
+.nav-overlay { position: fixed; inset: 0; background: #000b; }
+hr { border: 0; height: 1px; background: #28464e; margin: 28px 0; }
+@media (max-width: 920px) {
+ body { display: block; }
+ .topbar { display: flex; }
+ nav.sidebar { left: 0; bottom: 0; transform: translateX(-105%); transition: transform .25s ease; max-width: 86vw; }
+ nav.sidebar.open { transform: translateX(0); }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
+
+/* Production layout: the original Markdown remains the only article source. */
+:root { --gold: #b4b8a8; --gold-bright: #e4e5cf; --text: #c4cfca; --water: #82c9db; }
+body { font-size: 21px; background-image: radial-gradient(ellipse at 62% 0%, #123b48 0, #071319 35%, #030608 75%); }
+body::after { background: linear-gradient(90deg, #304b50, #95b7b6, #275d6c, #9bb5a8, #122f38); height: 2px; }
+[hidden] { display: none !important; }
+a { color: #8fc8d5; }
+a:hover { color: #f0e3be; }
+nav.sidebar { position: fixed; left: 0; width: 270px; height: 100dvh; background: linear-gradient(180deg, #0b1b22, #060d11 75%); }
+.brand { display: block; padding: 42px 18px 30px; text-decoration: none; }
+.brand-game { display: block; font: 48px/1.1 'Gothic II', Georgia, serif; color: #d5ded7; text-shadow: 0 2px 1px #000, 0 0 22px #69bdcc55; letter-spacing: -.04em; }
+.brand-game span { color: #83b9c3; }
+.brand-title { display: block; font: 15px/1.6 Georgia, serif; color: #a6b8b7; margin-top: 14px; }
+.sidebar-search { padding: 25px 22px 18px; }
+.sidebar-search label { display: block; font: 11px/1.5 sans-serif; text-transform: uppercase; letter-spacing: .18em; color: #a0b7b8; margin-bottom: 9px; }
+.sidebar-search input { width: 100%; min-height: 42px; background: #030a0e; border: 1px solid #2b444c; padding: 10px; color: #dbe7e3; border-radius: 0; font: 14px/1.5 Georgia, serif; }
+.sidebar-search input::placeholder { color: #94a9ac; }
+#search-results { font: 15px/1.5 Georgia, serif; }
+#search-results a { display: block; padding: 12px 0; }
+.nav-list a { min-height: 46px; font-size: 19px; border-bottom-color: #16282e; padding-left: 16px; }
+.nav-list > li > a { font-family: 'Gothic II', Georgia, serif; font-size: 17px; }
+.nav-list ul { list-style: none; margin: 8px 0 0; padding-left: 14px; }
+.nav-list a.active { border-left-color: #69b6c9; color: #d7e8dc; background: linear-gradient(90deg, #1c4555aa, transparent); }
+.source-link { margin: auto 22px 25px; padding-top: 18px; border-top: 1px solid #29404a; border-bottom: 0; font: 13px/1.5 sans-serif; display: flex; justify-content: space-between; }
+main { margin-left: 270px; padding: 35px 48px 30px; width: calc(100% - 270px); }
+.frame { max-width: 900px; padding: 48px 50px; border-color: #29454e; background: linear-gradient(145deg, #0b1920ef, #050b0ff7 65%); box-shadow: 0 0 0 4px #040a0d, 0 0 0 5px #29434b, 0 22px 65px #0008; }
+.frame::before { border-color: #31515b77; }
+.frame-corner { position: absolute; width: 19px; height: 19px; border: solid #719495; pointer-events: none; }
+.top-left { left: 5px; top: 5px; border-width: 2px 0 0 2px; }
+.top-right { right: 5px; top: 5px; border-width: 2px 2px 0 0; }
+.bottom-left { left: 5px; bottom: 5px; border-width: 0 0 2px 2px; }
+.bottom-right { right: 5px; bottom: 5px; border-width: 0 2px 2px 0; }
+.page-meta { max-width: 900px; margin: 0 auto 25px; padding: 0; border: 0; justify-content: flex-start; font: 12px/1.6 sans-serif; gap: 12px; color: #a3b6b9; }
+.page-meta a { border: 0; }
+article { outline: 0; overflow-wrap: break-word; }
+article h1 { font: normal clamp(28px, 3.2vw, 43px)/1.18 'Gothic II', Georgia, serif; color: #e2e5d5; letter-spacing: .01em; text-shadow: 0 2px 2px #000; margin: 0 0 30px; padding-bottom: 28px; border-bottom: 1px solid #34535b; }
+article h2 { display: block; font-size: 24px; color: #b9d0cd; line-height: 1.35; margin: 45px 0 18px; scroll-margin-top: 30px; }
+article h2::after { display: none; }
+article h2:first-of-type { margin-top: 32px; }
+article h3 { font-size: 21px; line-height: 1.45; }
+article h4 { font-size: 18px; }
+article sub { display: block; margin-top: 35px; padding-top: 18px; border-top: 1px solid #25414a; color: #9caca7; font-size: 15px; }
+article li { margin-bottom: 10px; }
+article blockquote { margin: 24px 0; padding: 18px 20px; background: #102a3299; border-left: 2px solid #68a0af; }
+article blockquote p:last-child { margin-bottom: 0; }
+pre { padding: 20px 72px 20px 18px; border-left-color: #508796; white-space: pre; max-width: 100%; }
+pre code { white-space: pre; word-break: normal; }
+.code-wrapper { position: relative; min-width: 0; }
+.copy-button { position: absolute; right: 8px; top: 8px; border: 1px solid #36515a; background: #10232b; color: #c4d5d4; font: 11px/1.5 sans-serif; padding: 7px 8px; cursor: pointer; }
+.copy-button:hover { background: #234450; }
+.guide-grid { margin-top: 32px; display: grid; gap: 12px; }
+.guide-grid a { display: flex; align-items: center; gap: 18px; padding: 20px; border: 1px solid #34545d; background: linear-gradient(110deg, #102730, #081218); font: 20px/1.4 'Gothic II', Georgia, serif; transition: border-color .2s, background .2s; }
+.guide-grid a:hover { border-color: #8eb6b9; background: #173843; }
+.guide-grid a > span:last-child { margin-left: auto; font: 22px Georgia, serif; }
+.guide-number { color: #8ea7a7; font: 13px/1 monospace; }
+.home-frame article h1 { font-size: clamp(34px, 4.5vw, 60px); text-align: center; padding: 24px 0 38px; }
+.page-footer { max-width: 900px; margin: 26px auto 0; display: flex; justify-content: space-between; gap: 18px; color: #9aadaa; font: 12px/1.7 sans-serif; }
+.page-footer a { border: 0; }
+.reading-bar { position: fixed; top: 0; left: 270px; right: 0; z-index: 80; height: 2px; }
+.reading-bar span { display: block; height: 100%; background: #a9dde0; }
+.page-outline { display: none; }
+.skip-link { position: fixed; left: 12px; top: -80px; padding: 12px; background: #183a47; color: #fff; z-index: 100; }
+.skip-link:focus { top: 12px; }
+@media (min-width: 1440px) {
+ main { width: calc(100% - 510px); }
+ .page-outline { display: block; position: fixed; right: 26px; top: 62px; width: 205px; max-height: calc(100vh - 100px); overflow: auto; font: 13px/1.5 Georgia, serif; }
+ .page-outline > span { display: block; color: #c1d2cd; margin-bottom: 18px; font: 11px sans-serif; text-transform: uppercase; letter-spacing: .15em; }
+ .page-outline a { display: block; padding: 8px 0 8px 14px; border: 0; border-left: 1px solid #28424a; color: #9eafaf; }
+ .page-outline a:hover, .page-outline a.current { color: #dfebd9; border-left-color: #88c9d2; }
+ .page-outline .subheading { padding-left: 24px; }
+}
+@media (max-width: 920px) {
+ main { margin-left: 0; width: 100%; padding: 26px 20px; }
+ nav.sidebar { width: 270px; z-index: 75; padding-top: 60px; }
+ .brand { padding-top: 22px; }
+ .topbar { z-index: 80; background: #071218f5; backdrop-filter: blur(12px); }
+ .brand-mini { border: 0; letter-spacing: .03em !important; }
+ .nav-overlay { z-index: 74; width: 100%; height: 100%; border: 0; }
+ .nav-overlay:not([hidden]) { display: block; }
+ .frame { padding: 36px 30px; }
+ .reading-bar { left: 0; }
+ article h2 { scroll-margin-top: 90px; }
+ .menu-open { overflow: hidden; }
+}
+@media (max-width: 560px) {
+ body { font-size: 20px; }
+ main { padding: 24px 14px; }
+ .frame { padding: 30px 22px; }
+ .page-meta { font-size: 11px; gap: 9px; }
+ .page-meta > span:last-child { overflow-wrap: anywhere; }
+ article h1 { font-size: 30px; }
+ article h2 { font-size: 22px; }
+ .guide-grid a { font-size: 17px; padding: 16px 12px; gap: 12px; }
+ pre { font-size: 12px; padding: 48px 12px 18px; }
+ .page-footer { font-size: 11px; }
+}
+
+.home-frame article h1 + h1 { font-size: 30px; text-align: left; border: 0; margin: 0 0 20px; padding: 0; }
+.guide-grid a > span:last-child { font-family: system-ui, sans-serif; }
+main { flex: none; }
+.page-meta { display: flex; }
+article h2, article h3, article h4 { font-family: 'Gothic II', Georgia, serif; font-weight: normal; }
+.source-link span { font-family: system-ui, sans-serif; }
+/* Authentic Gothic II scenery, displayed without modifying the source image. */
+body { background-image: linear-gradient(180deg, #02151b70, #03080be8 900px), url('images/khorinis.png'); background-size: cover; background-position: center top; }
+.frame { background: linear-gradient(145deg, #0b1920f2, #050b0ff5 65%); }
+.brand { background: linear-gradient(180deg, #173e4a44, transparent); }
+.ui-arrow { display: inline-block; flex: 0 0 9px; width: 9px; height: 9px; border-top: 1px solid currentColor; border-right: 1px solid currentColor; transform: rotate(45deg); margin-left: auto; }
+.home-frame { padding-top: 55px; }
+@media (prefers-reduced-data: reduce) { body { background-image: linear-gradient(180deg, #12313d, #03080b); } }
